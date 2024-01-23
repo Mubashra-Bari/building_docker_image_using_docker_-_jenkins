@@ -1,3 +1,2 @@
-# Building docker image using Docker and Jenkins
-This is a Hello World application written with Node. It includes a Dockerfile for building a Docker
-image with the application and a Jenkinsfile defining a build pipeline.
+# Built a docker image using Docker and Jenkins
+Dockerfile sets up a Node.js environment, defines a health check to ensure the application is running properly, and indicates that the container will expose port 8000. This Docker image can be used as a base for building and running Node.js applications whereas Jenkins Pipeline automates the process of cloning a Git repository, building a Docker image, testing it, and pushing it to Docker Hub with version tags. The pipeline is written in Groovy and is designed to be executed within a Jenkins environment.
